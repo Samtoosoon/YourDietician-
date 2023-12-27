@@ -1,0 +1,178 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #b7c4a4; /* Mix of olive and sage green */
+    margin: 0;
+}
+
+nav {
+    background-color: #4d7b5e; /* Darker green for navigation */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #e8e8e8; /* Lighter color on hover */
+}
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8fb688; /* Light green */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #a1c49d; /* Lighter green on hover */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.about {
+    background-color: #b7c4a4; /* Mix of olive and sage green */
+    padding: 2rem;
+    text-align: center;
+}
+
+.about a {
+    color: #4d7b5e; /* Darker green for links */
+    text-decoration: underline;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    background-color: #b7c4a4; /* Mix of olive and sage green */
+    padding: 2rem;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.review {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review p {
+    margin: 0;
+}
+
+.faq, .reviews, .contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact p {
+    margin: 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4d7b5e; /* Darker green for footer */
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+    }
+}
+
+.review {
+    background-color: #c5e1af; /* Light green box for reviews */
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review p {
+    margin: 0;
+}
